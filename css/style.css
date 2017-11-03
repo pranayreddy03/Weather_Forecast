@@ -30,8 +30,8 @@
 {
 	position: absolute;
 	top: 40%;
-	left: 10%;
-	width: 40%;
+	left: 8%;
+	width: 45%;
 	height: 50%;
 }
   #condition #location 
@@ -75,5 +75,9 @@
 }
 #forecast div span
 {
-	padding: 10%;
+	padding: 7%;
+}
+#forecast div span img
+{
+	width: 5%;
 }
