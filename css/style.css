@@ -7,7 +7,7 @@
 {
 	border: 2px solid black;
 	width: 60%;
-	height: 80%;
+	height: 85%;
 	position: absolute;
 	top: 10%;
 	left: 20%;
@@ -19,6 +19,7 @@
 	left: 40%;
 	font-size: 24px;
 	font-weight: 500; 
+	color: #1f69be !important;
 }
 #search
 {
@@ -66,7 +67,6 @@
 	left: 50%;
 	width: 40%;
 	height: 50%;
-	
 }
 #forecast div
 {

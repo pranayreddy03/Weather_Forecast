@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Weather Application</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,23 +10,18 @@
 			<div id="title">
 				Weather Application
 			</div>
-
-			<div id="search">
-				<form>
+			<div id="search">		
 					<div class="form-group">
 				    <input type="text" class="form-control" id="zip" placeholder="Enter the Zip Code" style="width: 100%">
 				    </div>
-				    <button class="btn btn-primary">Check Weather</button>				   
-				</form>
+				    <button class="btn btn-primary" onclick="loadWeather()">Check Weather</button>	
 			</div>
-
 			<div id="condition">
 				<p id="location">City, State</p>
 				<p id="weather">Current Conditions</p>
 				<p id="temperature">00</p>
 				<p id="summary"></p>
 			</div>
-
 			<div id="forecast">
                <div>
 	               <span id="day1"></span>
